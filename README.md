@@ -9,3 +9,11 @@
 - Uso de flex box
 - Criação de botões
 - Formatação de cores e letras
+
+## Terceira aula
+- Formatação do botão
+- Adição de icone
+- hover
+
+## Quarta aula
+
