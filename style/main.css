@@ -1,0 +1,39 @@
+:root {
+  --vermelho: #e50914;
+  --preta: #141414;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; /* faz com que o elemento interno fique compatível com a caixa e não empurre a caixa e fique maior que o configurado */
+}
+
+body {
+  background-color: var(--preta);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header .container {
+  display: flex;
+  /*flex-direction: row; essa é a forma padrão do display flex */
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px;
+}
+
+header .logo {
+  color: var(--vermelho);
+  font-family: 'Arial Black';
+  font-size: 40px;
+}
+
+header nav a {
+  color: #aaa;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: #fff;
+}
