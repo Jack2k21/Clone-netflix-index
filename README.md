@@ -31,3 +31,14 @@
 - Criado class para as imagens
 - Alterado nome main.js para setup.js
 - Comentado sobre responsividade em relação ao tamanho das telas dos equipamentos
+
+## Sexta aula
+
+- media query
+  
+## Setima aula
+
+- Finalização
+- Momento de Criação
+- Criado novamente arquivo main.js e adicionado funções para eventos onclick
+- Tentado criar um toggle menu

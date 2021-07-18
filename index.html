@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/main.css" />
 
+    <!-- Icons -->
+    <link rel="stylesheet" href="assets/fonts-icons/style.css" />
+
+    <!-- Responsividade -->
+    <link rel="stylesheet" href="style/responsive.css" />
+
     <!-- Owl CSS-->
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css" />
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css" />
@@ -12,15 +18,17 @@
     <title>NETFLIX CLONE</title>
   </head>
   <body>
-    <header>
-      <div class="container">
+    <header id="header">
+      <div class="container" id="container">
         <h2 class="logo">NETFLIX</h2>
-        <nav>
+        <nav class="menu">
           <a href="#">Início</a>
           <a href="#">Séries</a>
           <a href="#">Filmes</a>
           <a href="#">Documentários</a>
         </nav>
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
       </div>
     </header>
 
@@ -33,10 +41,18 @@
             nos EUA neste drama vencedor do Emmy e do Globo de Ouro.
           </p>
           <div class="botoes">
-            <button role="button" class="botao">
+            <button
+              role="button"
+              class="botao"
+              onclick="redirecionarAssistir()"
+            >
               <i class="fas fa-play"></i>Assistir agora
             </button>
-            <button role="button" class="botao">
+            <button
+              role="button"
+              class="botao"
+              onclick="redirecionarInformacoes()"
+            >
               <i class="fas fa-info-circle"></i>Mais informações
             </button>
           </div>
@@ -135,7 +151,7 @@
     ></script>
 
     <!-- Main js -->
-    <script src="js/owl/main.js"></script>
+    <script src="js/main.js"></script>
 
     <!-- Owl JS -->
     <script src="js/owl/jquery.min.js"></script>
