@@ -1,6 +1,6 @@
 # Clone do site do Netflix
 
-## Primeira aula
+## Primeira aula - HTML/CSS/JS
 
 - baixado imagens do arquivo disponibilizado pelo especialista e acompanhado a aula
 - Ao invéz de margin-left no logo, usei padding 0 5px, no container
@@ -23,3 +23,11 @@
 - Explicação sobre wrapper e container
 - Adicionado padding no container 10px
 - container do filme principal adicionado width de 70%
+
+## Quinta aula
+
+- Adicionado owl carousel
+- Criado main.js
+- Criado class para as imagens
+- Alterado nome main.js para setup.js
+- Comentado sobre responsividade em relação ao tamanho das telas dos equipamentos
