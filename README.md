@@ -2,7 +2,7 @@
 
 ## Primeira aula - HTML/CSS/JS
 
-- baixado imagens do arquivo disponibilizado pelo especialista e acompanhado a aula
+- Baixado imagens do arquivo disponibilizado pelo especialista e acompanhado a aula
 - Ao invéz de margin-left no logo, usei padding 0 5px, no container
   
 ## Segunda aula
@@ -16,13 +16,13 @@
 
 - Formatação do botão
 - Adição de icone
-- hover
+- Hover
 
 ## Quarta aula
 
 - Explicação sobre wrapper e container
 - Adicionado padding no container 10px
-- container do filme principal adicionado width de 70%
+- Container do filme principal adicionado width de 70%
 
 ## Quinta aula
 
