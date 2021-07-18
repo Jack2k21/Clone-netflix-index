@@ -1,46 +1,25 @@
-@media screen and (max-width: 700px) {
-  header .container .menu a {
-    display: none;
+@media screen and (max-width: 434px) {
+  .container .logo {
+    font-size: 30px;
+  }
+  .container nav a {
+    font-size: 14px;
+  }
+  .filme-principal .titulo {
+    font-size: 30px;
+  }
+  .filme-principal .descricao {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
   }
 
-  header .container .icon-menu {
-    font-size: 26px;
-  }
-
-  header .container .icon-close {
-    opacity: 0;
-    visibility: hidden;
-    position: absolute;
-    font-size: 26px;
-  }
-
-  #container.show .menu {
-    display: grid;
-    height: 100vh;
-    width: 100vw;
-    position: fixed;
-    background-color: white;
-    top: 0;
-    left: 0;
-    place-content: center;
-  }
-
-  #container.show .menu a {
-    display: grid;
-    font-size: 60px;
-    align-items: center;
-  }
-
-  #container.show .icon-close {
-    visibility: visible;
-    opacity: 1;
-  }
-
-  .toggle {
-    cursor: pointer;
-  }
-
-  nav .botao {
+  .botao {
     margin-top: 5px;
     width: 300px;
   }
@@ -48,6 +27,6 @@
 
 @media screen and (min-width: 1000px) {
   .descricao {
-    width: 60%;
+    width: 50%;
   }
 }

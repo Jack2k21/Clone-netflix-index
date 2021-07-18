@@ -34,11 +34,8 @@
 
 ## Sexta aula
 
-- media query
-  
-## Setima aula
-
-- Finalização
-- Momento de Criação
-- Criado novamente arquivo main.js e adicionado funções para eventos onclick
-- Tentado criar um toggle menu
+- Criatividade
+- Criado potatoFlix
+- Adicionado links e title nas imagens
+- Alterado menu
+- Ajustado media query

@@ -5,12 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/main.css" />
 
-    <!-- Icons -->
-    <link rel="stylesheet" href="assets/fonts-icons/style.css" />
-
-    <!-- Responsividade -->
+    <!-- Media Query -->
     <link rel="stylesheet" href="style/responsive.css" />
-
     <!-- Owl CSS-->
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css" />
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css" />
@@ -18,42 +14,31 @@
     <title>NETFLIX CLONE</title>
   </head>
   <body>
-    <header id="header">
-      <div class="container" id="container">
-        <h2 class="logo">NETFLIX</h2>
-        <nav class="menu">
+    <header>
+      <div class="container">
+        <h2 class="logo">POTATOFLIX</h2>
+        <nav>
           <a href="#">Início</a>
-          <a href="#">Séries</a>
-          <a href="#">Filmes</a>
+          <a href="#">Receitas</a>
+          <a href="#">Vídeos</a>
           <a href="#">Documentários</a>
         </nav>
-        <div class="toggle icon-menu"></div>
-        <div class="toggle icon-close"></div>
       </div>
     </header>
 
     <main>
       <div class="filme-principal">
         <div class="container">
-          <h3 class="titulo">House of Cards</h3>
+          <h3 class="titulo">Batata recheada com Bacon e Queijo</h3>
           <p class="descricao">
-            Um político inescrupuloso não mede esforços para conquistar o poder
-            nos EUA neste drama vencedor do Emmy e do Globo de Ouro.
+            Um delicioso prato, rápido e fácil e que todo mundo vai gostar
           </p>
           <div class="botoes">
-            <button
-              role="button"
-              class="botao"
-              onclick="redirecionarAssistir()"
-            >
-              <i class="fas fa-play"></i>Assistir agora
+            <button role="button" class="botao" onclick="vejaVideo()">
+              <i class="fas fa-play"></i>Veja como preparar
             </button>
-            <button
-              role="button"
-              class="botao"
-              onclick="redirecionarInformacoes()"
-            >
-              <i class="fas fa-info-circle"></i>Mais informações
+            <button role="button" class="botao" onclick="maisInformacoes()">
+              <i class="fas fa-info-circle"></i>Mais informações sobre a receita
             </button>
           </div>
         </div>
@@ -64,80 +49,63 @@
         <div class="item">
           <img
             class="box-filme"
-            src="img/mini1.jpg"
-            alt="Image of The Umbrella Academy"
+            src="img2/Batata_doce_refogada.jpg"
+            alt="Imagem de uma batata doce refogada"
+            title="Batata doce refogada"
             srcset=""
           />
         </div>
         <div class="item">
           <img
             class="box-filme"
-            src="img/mini2.jpg"
-            alt="Image of Star Wars"
+            src="img2/batata_laminada_ao_forno.jpg"
+            alt="Imagem de uma batata laminada feita no forno"
+            title="Batata laminada feita no forno"
             srcset=""
           />
         </div>
         <div class="item">
           <img
             class="box-filme"
-            src="img/mini3.jpg"
-            alt="Image of Pokemon"
+            src="img2/Batata_recheada_com_Frango_Cremoso.jpg"
+            alt="Imagem de uma batata recheada com frango cremoso"
+            title="Batata recheada com frango cremoso"
             srcset=""
           />
         </div>
         <div class="item">
           <img
             class="box-filme"
-            src="img/mini4.jpg"
-            alt="Image of Civil War/Avengers"
+            src="img2/batata_recheada_com_legumes.ashx"
+            alt="Imagem de uma batata recheada com legumes"
+            title="Batata recheada com legumes"
             srcset=""
           />
         </div>
         <div class="item">
           <img
             class="box-filme"
-            src="img/mini5.jpg"
-            alt="Image of The Hobbit/LODR"
+            src="img2/batata_salteada_na_manteiga_7405_orig.jpg"
+            alt="Imagem de batata Salteada na manteiga"
+            title="Batata Salteada na manteiga"
             srcset=""
           />
         </div>
         <div class="item">
           <img
             class="box-filme"
-            src="img/mini6.jpg"
-            alt="Image of Breaking Bad"
+            src="img2/BatataAssada_com_Calabresa.jpg"
+            alt="Imagem de batatas assadas com calabresa"
+            title="Batatas assadas com calabresa"
             srcset=""
           />
         </div>
         <div class="item">
           <img
             class="box-filme"
-            src="img/mini7.jpg"
-            alt="Image of HouseMD"
-            srcset=""
-          />
-        </div>
-        <div class="item">
-          <img
-            class="box-filme"
-            src="img/mini8.jpg"
-            alt="Image of Supernatural"
-            srcset=""
-          />
-        </div>
-        <div class="item">
-          <img
-            class="box-filme"
-            src="img/mini9.jpg"
-            alt="Image of Smallville/Superman"
-            srcset=""
-          />
-        </div>
-        <div class="item">
-          <img
-            class="box-filme"
-            src="img/mini10.jpg"
-            alt="Image of Infinity War/Avengers"
+            src="img2/BatataFrita_com_ChedarBacon.JPG"
+            alt="Imagem de batatas fritas com chedar e bacon"
+            title="Batatas fritas com chedar e bacon"
             srcset=""
           />
         </div>

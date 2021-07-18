@@ -1,23 +1,9 @@
-const nav = document.querySelector('#header #container')
-
-const toggle = document.querySelectorAll('#container .toggle')
-
-for (var element of toggle) {
-  element.addEventListener('click', function () {
-    nav.classList.toggle('show')
-  })
+function maisInformacoes() {
+  window.open(
+    'https://www.tudogostoso.com.br/receita/172194-batata-recheada-com-bacon-e-queijo.html'
+  )
 }
 
-for (var link of links) {
-  link.addEventListener('click', function () {
-    nav.classList.remove('show')
-  })
-}
-
-function redirecionarAssistir() {
-  window.location.href = 'https://www.youtube.com/watch?v=SvSkxBYuoQY'
-}
-
-function redirecionarInformacoes() {
-  window.open('https://www.themoviedb.org/tv/1425-house-of-cards')
+function vejaVideo() {
+  window.open('https://www.youtube.com/watch?v=3sNsHg9kAsc')
 }
